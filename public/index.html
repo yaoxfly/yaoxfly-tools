@@ -15,6 +15,13 @@
       >
     </noscript>
     <div id="app"></div>
+    <!-- ie10以下直接重定向 -->
+    <!--[if lt IE 10]>
+      <script>
+        window.location.href = 'http://www.baidu.com'
+      </script>
+    <![endif]-->
+
     <!-- built files will be auto injected -->
     <script src="https://unpkg.com/vue@2.6.10/dist/vue.runtime.min.js"></script>
     <script src="https://unpkg.com/vuex@3.0.1/dist/vuex.min.js"></script>
