@@ -10,7 +10,9 @@
     "type": "git",
     "url": "https://gitee.com/yaoxfly/yaoxfly-tools.git"
   },
-  "files": ["tools"],
+  "files": [
+    "tools"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
