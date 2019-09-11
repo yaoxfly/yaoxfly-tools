@@ -1,11 +1,21 @@
 {
   "name": "yaoxfly-tools",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "author": "yaoxfly",
+  "description": "常用方法、类库",
+  "main": "tools/yaoxfly-tools.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/yaoxfly/yaoxfly-tools.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name yaoxfly-tools --dest tools lib/index.js",
+    "publish": "npm version patch -f"
   },
   "dependencies": {
     "core-js": "^2.6.5",
