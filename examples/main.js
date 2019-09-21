@@ -2,15 +2,13 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import Tools from "../lib/Tools";
+import Yxtool from "../lib";
 Vue.config.productionTip = false;
-// Vue.prototype.$Tools = Tools;
+let assembly = ["about", "home"];
+Yxtool.Tools.KeepAlive({ router, assembly });
 new Vue({
   router,
   store,
   render: h => h(App),
-  created() {
-    const res = Tools.Test1().rsName();
-    console.log(res);
-  }
+  created() {}
 }).$mount("#app");
