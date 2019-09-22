@@ -51,5 +51,6 @@ meta: {
 **注意:**
 
 ```
-如果是有嵌套的子路由,那么父路由的 <router-view></router-view> 不需要加 <keep-alive>
+如果是有嵌套的子路由,那么父路由的 <router-view></router-view>
+不需要加 <keep-alive>
 ```
