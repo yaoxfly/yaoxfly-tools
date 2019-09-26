@@ -1,4 +1,4 @@
-# yaoxfly-tools
+## yaoxfly-tools
 
 ### 介绍
 
@@ -61,8 +61,9 @@ meta: {
 不需要加 <keep-alive>
 ```
 
-2. **ForbidScaling**
-   使用 `ForbidScaling` 能够禁止网页缩放并能够做出提示
+#### 2. **ForbidScaling**
+
+使用 `ForbidScaling` 能够禁止网页缩放并能够做出提示
 
 - 第一步在 `main.js` 引入
 
