@@ -1,18 +1,18 @@
 # yaoxfly-tools
 
-#### 介绍
+### 介绍
 
 公共类库
 
-#### 安装教程
+### 安装教程
 
 ```
 npm i yaoxfly-tools
 ```
 
-#### 使用说明
+### 使用说明
 
-1.  **KeepAlive**
+#### 1. **KeepAlive**
 
     使用 `KeepAlive` 保持前进 刷新 后退缓存 目前方法用于后台管理系统
 
@@ -52,7 +52,7 @@ meta: {
   |router|vue-router 对象|object|—|—|H5|
   |assembly |左侧菜单栏里的所有值(第一级路由) |array|—|—|H5|
 
-> tips: Tools.KeepAlive 固体用法,不可更改 router, assembly 这两个属性名不可修改 assembly 数据里包含的是左侧菜单栏里的所有值(第一级路由)
+> tips: `Tools.KeepAlive` 固体用法,不可更改 `router`, `assembly` 这两个属性名不可修改 `assembly` 数据里包含的是左侧菜单栏里的所有值(第一级路由)
 
 **注意:**
 
