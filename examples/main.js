@@ -2,12 +2,13 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import Yxtool from "../lib";
+import YxTool from "../lib";
 Vue.config.productionTip = false;
 let assembly = ["about", "home"];
-Vue.use(Yxtool);
+Vue.use(YxTool);
 
-Yxtool.Tools.KeepAlive({ router, assembly });
+console.log(YxTool.Tools.ForbidScaling());
+YxTool.Tools.KeepAlive({ router, assembly });
 new Vue({
   router,
   store,
